@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main h2 {
+    margin: auto;
+}
+
+form.inputDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+form.inputDiv input {
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnOpciones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+div.btnOpciones button {
+    height: 40px;
+    border: none;
+    background: #1259c3;
+    color: white;
+    border-radius: 10px;
+    transition: all 400ms ease-in;
+}
+
+div.btnOpciones button:hover {
+    background-color: #ebebeb;
+    border: solid 1px #1259c3;
+    color: #1259c3;
+}

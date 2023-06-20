@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  background-color: #ebebeb;
+}
+
+section {
+  width: 100%;
+}
+
+main {
+  margin: 60px auto;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.divHeader {
+  width: 100%;
+  background-color: #EAC926;
+  padding: 40px 30px;
+}
+
+.navBar {
+  display: none;
+}
+
+
+.btnMenu {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40px;
+  background-color: #03264C;
+  width: 40px;
+  height: 40px;
+  color: white;
+  border-radius: 7px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.tituloProducto {
+  padding: 3px;
+  font-weight: bold;
+  color: #666;
+}
+
+article {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+article div.productInfo .fa-truck {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  color: #39b54a;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+article div.productInfo {
+  position: relative;
+}
+
+
+.precioInfo {
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.descuentos {
+  color: #39b54a;
+}
+
+.productInfo {
+  border-top: solid 1px #ebebeb;
+  padding-left: 15px;
+  display: none;
+  color: #666;
+}
+
+.headerTop {
+  row-gap: 21px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.anuncio {
+  width: 100%;
+  text-align: center;
+}
+
+.list {
+  margin-top: 23px;
+  list-style: none;
+  display: flex;
+  gap: 11px;
+}
+
+nav.navBar ul.list li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.banner,
+.imgProduct {
+  width: 100%;
+}
+
+.logo {
+  padding: 10px;
+  width: 50%;
+}
+
+header.divHeader div.headerTop div.search {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+header.divHeader div.headerTop div.search input {
+  width: 90%;
+  padding: 9px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.banner img,
+.imgProduct img,
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p {
+  font-size: 12px;
+}
+
+.titulares {
+  padding: 10px;
+  font-size: 24px;
+}
+
+
+div.search button {
+  position: absolute;
+  border: none;
+  background: white;
+  right: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 9px;
+}
+
+.precios {
+  padding: 3px;
+  font-size: 18px;
+}
+
+.descuentos,
+.descripciones {
+  font-size: 16px;
+}
+
+.pieDePagina {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.pieDePagina1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imgPieDePagina {
+  font-size: 2em;
+  color: #1259c3;
+}
+
+.pieDePagina .info {
+  padding-bottom: 30px;
+}
